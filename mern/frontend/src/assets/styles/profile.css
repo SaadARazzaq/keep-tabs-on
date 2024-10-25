@@ -1,0 +1,421 @@
+.profile-page {
+    display: flex;
+    height: 100vh;
+    background-color: #1b1b1b;
+    color: #fff;
+    font-family: 'Arial', sans-serif;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    box-sizing: border-box;
+}
+
+.logo-container {
+    margin-bottom: 1rem;
+}
+
+.logo {
+    width: 150px;
+    margin-bottom: 1.5rem;
+}
+
+.navigation ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.nav-label {
+    font-size: 0.875rem;
+    color: #ccc;
+    margin-bottom: 1rem;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.nav-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 0.5rem 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.nav-icon {
+    margin-right: 0.5rem;
+    color: #6f77ff;
+}
+
+.digest-count, .new-digest {
+    background-color: #6f77ff;
+    border-radius: 5px;
+    padding: 0.3rem 0.7rem;
+    font-weight: bold;
+    font-size: 0.875rem;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-left: 1rem;
+}
+
+.individual-digests-label {
+    font-size: 0.875rem;
+    color: #ccc;
+    margin-bottom: 1rem;
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 4.5rem;
+}
+
+.individual-digests {
+    margin-top: 1rem;
+    flex: 1;
+    overflow-y: auto;
+}
+
+.see-more {
+    cursor: pointer;
+    color: #6f77ff;
+    font-size: 0.9rem;
+    display: flex;
+    align-items: center;
+    margin-left: 0.7rem;
+}
+
+.see-more-icon {
+    margin-right: 1.4rem;
+}
+
+.ellipsis-icon {
+    margin-left: auto;
+    cursor: pointer;
+    font-size: 1.25rem;
+    color: #ccc;
+}
+
+.digest-user {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+}
+
+.digest-user img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+}
+
+.sidebar-footer {
+    margin-top: auto;
+    padding-top: 1rem;
+    border-top: 1px solid #333;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 0.75rem;
+}
+
+.content-container {
+    flex: 1;
+    margin-left: 300px; /* Pushes content to the right of the sidebar */
+    height: 100vh;
+    overflow-y: auto; /* Enables scrolling within the content */
+    display: flex;
+    flex-direction: column;
+}
+
+.content {
+    flex: 1;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.profileheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #333;
+}
+
+.profileback-button {
+    background: none;
+    border: none;
+    color: #6f77ff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.icon {
+    font-size: 1.25rem;
+    color: #fff;
+    cursor: pointer;
+}
+
+.create-new-button {
+    background-color: #6f77ff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.create-new-button .icon {
+    font-size: 1rem;
+    color: #fff;
+}
+
+.profile-section {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start; /* Ensure alignment at the top */
+}
+
+.profile-main {
+    flex: 1.5;
+}
+
+.profile-header {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.profile-info h2 {
+    margin: 0;
+}
+
+.profile-info a {
+    color: #6f77ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.words-to-watch, .saved {
+    font-weight: bold;
+}
+
+.past-digests {
+    background-color: #444;
+    color: #fff;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.connect-button {
+    background-color: #6f77ff;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.digest-links-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -1rem; /* Adjust the margin to position the button */
+    position: relative;
+    right: -45%;
+    top: -0.5rem;
+}
+
+.actions-button {
+    background: none;
+    border: 1px solid #fff;
+    color: #ccc;
+    cursor: pointer;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: absolute;
+    right: -145px; /* Aligns the button to the right edge */
+    top: 0; /* Aligns the button to the top edge */
+}
+
+
+.digest-links {
+    flex: 2;
+    background-color: #333;
+    padding: 1.5rem;
+    border-radius: 10px;
+    margin-top: 3rem;
+    border: 1px solid #444;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.links-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.links-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px dashed #555;
+    padding-bottom: 0.5rem;
+}
+
+.links-list li:last-child {
+    border-bottom: none;
+}
+
+.links-list a {
+    color: #6f77ff;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: right;
+}
+
+.links-list .icon {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+    color: #fff;
+}
+
+
+.main-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+    border-top: 1px solid #333;
+    margin-top: 30px;
+    margin-bottom: -30px;
+    bottom: 0;
+    font-size: 0.875rem;
+    color: #ccc;
+    pointer-events: auto;
+}
+
+.mfooter-left {
+    display: flex;
+    gap: 1rem;
+}
+
+.mfooter-left a {
+    color: #ccc;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 0.25rem;
+    font-size: 0.875rem;
+}
+
+.mfooter-right {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-end;
+    z-index: 1010; /* Ensure the right footer elements are on top */
+}
+
+.settings-button, .dark-mode-toggle {
+    background-color: #444;
+    border: 1px solid #333;
+    padding: 0.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 40px;
+    height: 40px;
+    z-index: 1011; /* Make sure buttons are on top of everything */
+}
+
+.footer-icon {
+    color: #fff; /* Ensure the icon color is white */
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.settings-button:hover, .dark-mode-toggle:hover {
+    background-color: #6f77ff;
+    color: #fff;
+}
+
+body.light-mode {
+    background-color: #fff;
+    color: #000;
+}
+
+body.light-mode .sidebar {
+    background-color: #f4f4f4;
+    color: #000;
+}
+
+body.light-mode .footer-left a, body.light-mode .settings-button, body.light-mode .dark-mode-toggle {
+    color: #000;
+    border-color: #000;
+}
+
+body.light-mode .footer-right .dark-mode-toggle:hover, body.light-mode .footer-right .settings-button:hover {
+    background-color: #ccc;
+    color: #000;
+}

@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "videoUrl": "https://www.youtube.com/watch?v=dljgPA3eVIc",
+        "thumbnailUrl": "https://i.ytimg.com/vi/dljgPA3eVIc/default.jpg",
+        "views": "80.6K",
+        "likes": "1.2K",
+        "shares": "400",
+        "title": "To Kevin love Cara"
+    },
+    {
+        "id": 2,
+        "videoUrl": "https://www.youtube.com/watch?v=ti2PeRWdzsw",
+        "thumbnailUrl": "https://i.ytimg.com/vi/ti2PeRWdzsw/default.jpg",
+        "views": "15.7K",
+        "likes": "199",
+        "shares": "500",
+        "title": "Way Better Version of Hellmann's Advert"
+    },
+    {
+        "id": 3,
+        "videoUrl": "https://www.youtube.com/watch?v=5RI9uzUOn-Q",
+        "thumbnailUrl": "https://i.ytimg.com/vi/5RI9uzUOn-Q/default.jpg",
+        "views": "11.4K",
+        "likes": "263",
+        "shares": "600",
+        "title": "The Funky Monkey Freaks out.mov"
+    },
+    {
+        "id": 4,
+        "videoUrl": "https://www.youtube.com/watch?v=BppO_5gMkcU",
+        "thumbnailUrl": "https://i.ytimg.com/vi/BppO_5gMkcU/default.jpg",
+        "views": "16.9K",
+        "likes": "439",
+        "shares": "700",
+        "title": "Funky Monkey Junky Dance"
+    }
+]

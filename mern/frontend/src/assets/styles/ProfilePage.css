@@ -1,0 +1,74 @@
+/* ProfilePage.css */
+.profile-page2 {
+    background-color: #1b1b1b;
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    box-sizing: border-box;
+}
+
+.profile-header2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-bottom: 2rem;
+}
+
+.back-button2 {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    color: #6f77ff;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.profile-details2 {
+    text-align: center;
+}
+
+.profile-avatar2 {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.profile-name2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.digests-section2 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.digest-card2 {
+    background-color: #2e2e2e;
+    padding: 1.5rem;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.digest-card2 h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.digest-card2 p {
+    font-size: 1rem;
+}
